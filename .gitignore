@@ -1,0 +1,50 @@
+# IDE / editor
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+**/bin/
+**/obj/
+**/out/
+**/build/
+**/dist/
+**/coverage/
+**/publish/
+**/.angular/
+**/.angular-cache/
+
+# Dependencies
+**/node_modules/
+**/packages/
+**/.dart_tool/
+**/.packages/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.gradle/
+
+# Environment / secrets
+**/.env
+**/.env.*
+**/appsettings.Database.json
+**/appsettings.Development.json
+**/appsettings.Local.json
+
+# Generated app caches / outputs
+mobile/flutter_module_1/build/
+mobile/flutter_module_1/.dart_tool/
+mobile/flutter_module_1/.packages/
+mobile/flutter_module_1/.flutter-plugins
+mobile/flutter_module_1/.flutter-plugins-dependencies
+
+# Logs / temp
+*.log
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
